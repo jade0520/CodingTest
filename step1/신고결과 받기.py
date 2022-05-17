@@ -7,6 +7,7 @@
 
 배운것
 - dict.keys() 는 list()로 바꾸어주어야 한다!
+- print 쓰면 시간/용량 초과로 채점이 안된다!
 """
 
 
@@ -37,14 +38,14 @@ def solution(id_list, report, k):
         if count >= k:
             # 신고 대상자가 정지 메일을 받으며
             #mail_dict[Respondent] += 1
-            print("신고 받는", Respondent)
+            #print("신고 받는", Respondent)
             
             for reporter, report_list in reporter_dict.items():
                 # 모든 리포터를 탐색해서 
                 if Respondent in report_list:
                     # 해당 신고자를 신고한 리포터에게 메일이 간다.
                     mail_dict[reporter] += 1
-                    print(Respondent,"를 신고한", reporter)
+                    #print(Respondent,"를 신고한", reporter)
                     
     # 유저별 "메일" 처리 결과를 담은 횟수 - Respondent_dict는 id list 순서와 같다 
     answer =  list(mail_dict.values())
