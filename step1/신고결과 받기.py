@@ -1,3 +1,15 @@
+"""
+걸린 시간 : 40분
+
+문제 이해가 중요.
+- 메일 받는 기준
+- 신고 중복이 안되는 것
+
+배운것
+- dict.keys() 는 list()로 바꾸어주어야 한다!
+"""
+
+
 def solution(id_list, report, k):
     """
     id_list : 전체 id 리스트
