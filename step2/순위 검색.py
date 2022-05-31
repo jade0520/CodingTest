@@ -1,7 +1,7 @@
 """
 시간 - 55분
+점수 - 40/100
 효율성 테스트는 버리고 그냥 빨리 코딩하자
-
 """
 
 from queue import PriorityQueue
